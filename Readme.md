@@ -1,3 +1,9 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [MsSqlWithCte.cs](./CS/MsSqlWithCte.cs) (VB: [MsSqlWithCte.vb](./VB/MsSqlWithCte.vb))
+* [Program.cs](./CS/Program.cs) (VB: [Program.vb](./VB/Program.vb))
+<!-- default file list end -->
 # How to use custom SQL queries as a data source in XPO via Common Table Expressions (CTE)
 
 Many modern SQL servers support [Common Table Expressions (CTE)](https://en.wikipedia.org/wiki/Hierarchical_and_recursive_queries_in_SQL#Common_table_expression) feature that allows you to declare a temporary named result set derived from a query and use it in the from part of another query. This feature can be employed in XPO via patching SQL queries it generates. We will demonstrate this functionality in an example with MSSQL Server.
