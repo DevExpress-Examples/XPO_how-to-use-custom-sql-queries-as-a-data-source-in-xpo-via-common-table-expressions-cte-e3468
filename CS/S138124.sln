@@ -1,6 +1,10 @@
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S138124", "S138124.csproj", "{36CEF72B-737C-41D4-BAEB-DEA125F6B8DF}"
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S138124", "S138124\S138124.csproj", "{36CEF72B-737C-41D4-BAEB-DEA125F6B8DF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "S138124_NetCore", "S138124_NetCore\S138124_NetCore.csproj", "{717BC118-5BC5-48C3-9743-5A88EC75CFFA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,8 +16,15 @@ Global
 		{36CEF72B-737C-41D4-BAEB-DEA125F6B8DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{36CEF72B-737C-41D4-BAEB-DEA125F6B8DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{36CEF72B-737C-41D4-BAEB-DEA125F6B8DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{717BC118-5BC5-48C3-9743-5A88EC75CFFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{717BC118-5BC5-48C3-9743-5A88EC75CFFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{717BC118-5BC5-48C3-9743-5A88EC75CFFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{717BC118-5BC5-48C3-9743-5A88EC75CFFA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8D140B32-9057-49BC-AB58-09C5B0F68198}
 	EndGlobalSection
 EndGlobal

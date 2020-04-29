@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <RootNamespace></RootNamespace>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\S138124\ConsoleLogger.vb" Link="ConsoleLogger.vb" />
+    <Compile Include="..\S138124\MsSqlWithCte.vb" Link="MsSqlWithCte.vb" />
+    <Compile Include="..\S138124\Program.vb" Link="Program.vb" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="DevExpress.Xpo" Version="19.2.7" />
+  </ItemGroup>
+
+</Project>
