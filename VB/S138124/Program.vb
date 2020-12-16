@@ -86,7 +86,7 @@ Namespace S138124
 		<Key> _
 		Public ID As Integer
 		Public [String] As String
-		Public Math? As Double
+		Public Math As Double
 		Public Overrides Function ToString() As String
 			Return String.Format("<'{0}', '{1}', '{2}'>", ID, [String], Math)
 		End Function
