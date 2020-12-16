@@ -44,12 +44,12 @@ namespace DevExpress.Xpo.DB.Cte {
 
         readonly Dictionary<string, string> registeredCte = new Dictionary<string, string>();
         public void RegisterCte(string cteName, string cteBody) {
-            lock(SyncRoot) {
+            using(LockHelper.Lock()) {
                 registeredCte[cteName] = cteBody;
             }
         }
         public void UnregisterCte(string cteName) {
-            lock(SyncRoot) {
+            using(LockHelper.Lock()) {
                 registeredCte.Remove(cteName);
             }
         }

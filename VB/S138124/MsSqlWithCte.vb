@@ -48,14 +48,14 @@ Namespace DevExpress.Xpo.DB.Cte
 
 		Private ReadOnly registeredCte As New Dictionary(Of String, String)()
 		Public Sub RegisterCte(ByVal cteName As String, ByVal cteBody As String)
-			SyncLock SyncRoot
+			Using LockHelper.Lock()
 				registeredCte(cteName) = cteBody
-			End SyncLock
+			End Using
 		End Sub
 		Public Sub UnregisterCte(ByVal cteName As String)
-			SyncLock SyncRoot
+			Using LockHelper.Lock()
 				registeredCte.Remove(cteName)
-			End SyncLock
+			End Using
 		End Sub
 		Private usedCtes As Dictionary(Of String, String)
 		Private Function ProcessPossibleCte(ByVal maybeCteName As String) As String
