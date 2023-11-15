@@ -6,8 +6,8 @@
 <!-- default file list -->
 *Files to look at*:
 
-* [MsSqlWithCte.cs](./CS/S138124/MsSqlWithCte.cs) (VB: [MsSqlWithCte.vb](./VB/S138124/MsSqlWithCte.vb))
-* [Program.cs](./CS/S138124/Program.cs) (VB: [Program.vb](./VB/S138124/Program.vb))
+* [MsSqlWithCte.cs](./CS/S138124/MsSqlWithCte.cs) 
+* [Program.cs](./CS/S138124/Program.cs) 
 <!-- default file list end -->
 # How to use custom SQL queries as a data source in XPO via Common Table Expressions (CTE)
 
