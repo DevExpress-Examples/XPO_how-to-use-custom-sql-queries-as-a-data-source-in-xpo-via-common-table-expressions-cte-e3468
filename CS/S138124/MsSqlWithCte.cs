@@ -2,7 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Data;
-using System.Data.SqlClient;
+using Microsoft.Data.SqlClient;
 using DevExpress.Xpo;
 using DevExpress.Xpo.Helpers;
 using DevExpress.Xpo.DB;
@@ -23,7 +23,7 @@ namespace DevExpress.Xpo.DB.Cte {
         }
         static MSSqlConnectionProviderWithCte() {
             RegisterDataStoreProvider(XpoProviderTypeString, new DataStoreCreationFromStringDelegate(CreateProviderFromString));
-            //RegisterDataStoreProvider("System.Data.SqlClient.SqlConnection", new DataStoreCreationFromConnectionDelegate(CreateProviderFromConnection));
+            //RegisterDataStoreProvider("Microsoft.Data.SqlClient.SqlConnection", new DataStoreCreationFromConnectionDelegate(CreateProviderFromConnection));
             RegisterFactory(new MSSqlWithCteProviderFactory());
         }
         public new static void Register() { }
