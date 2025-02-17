@@ -23,7 +23,7 @@ namespace DevExpress.Xpo.DB.Cte {
         }
         static MSSqlConnectionProviderWithCte() {
             RegisterDataStoreProvider(XpoProviderTypeString, new DataStoreCreationFromStringDelegate(CreateProviderFromString));
-            //RegisterDataStoreProvider("Microsoft.Data.SqlClient.SqlConnection", new DataStoreCreationFromConnectionDelegate(CreateProviderFromConnection));
+            //RegisterDataStoreProvider("System.Data.SqlClient.SqlConnection", new DataStoreCreationFromConnectionDelegate(CreateProviderFromConnection));
             RegisterFactory(new MSSqlWithCteProviderFactory());
         }
         public new static void Register() { }
