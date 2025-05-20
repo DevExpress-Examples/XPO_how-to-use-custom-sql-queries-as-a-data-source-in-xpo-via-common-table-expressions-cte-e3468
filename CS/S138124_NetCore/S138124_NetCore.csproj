@@ -10,7 +10,7 @@
     <Compile Include="..\S138124\Program.cs" Link="Program.cs" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="DevExpress.Xpo" Version="24.2.*" />
+    <PackageReference Include="DevExpress.Xpo" Version="24.2.1" />
     <PackageReference Include="System.Data.SqlClient" Version="4.9.0" />
     <PackageReference Include="Microsoft.CodeAnalysis.CSharp" Version="4.10.0"/>
     <PackageReference Include="Microsoft.CodeAnalysis.CSharp.Workspaces" Version="4.10.0"/>
