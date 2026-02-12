@@ -19,7 +19,7 @@ To accomplish this task, we create a custom connection provider derived from MSS
 In an application, we declare a persistent class mapped to a CTE definition, and call our connection provider methods to register an SQL query as a CTE definition before using it and unregister it afterwards. This way we can dynamically change SQL queries mapped to a persistent object during application lifetime. An example attached to this article demonstrates how this persistent class can be used in typical scenarios of expression evaluation, collection filtering and LINQ queries.
 
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=XPO_how-to-use-custom-sql-queries-as-a-data-source-in-xpo-via-common-table-expressions-cte-e3468&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=XPO_how-to-use-custom-sql-queries-as-a-data-source-in-xpo-via-common-table-expressions-cte-e3468&~~~was_helpful=no)
 
